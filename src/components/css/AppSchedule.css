@@ -1,0 +1,38 @@
+.student-container {
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.add-student     {
+    width: 29rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}   
+
+.student-list {
+    width: 29rem;
+}
+
+.student-list table {
+    width: 100%;
+}
+
+form input, form select {
+    width: 100%;
+}
+
+table {
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+tr, th, td {
+    border: 2px solid var(--primary-color);
+    padding: 0.8rem;
+}
+
+th {
+    padding: 1rem;
+}

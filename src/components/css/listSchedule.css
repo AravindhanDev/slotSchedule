@@ -1,0 +1,14 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-schedule {
+    width: 35rem;
+}
+
+.individual-slot {
+    background-color: #C38154;
+    color: #321E1E;
+}
